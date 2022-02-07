@@ -1,0 +1,21 @@
+Numarul de iteratii: 50
+Fermat time and correctness for test number 1 : 0.000028, 100.00
+Fermat time and correctness for test number 2 : 0.000098, 100.00
+Fermat time and correctness for test number 3 : 0.000084, 100.00
+Fermat time and correctness for test number 4 : 0.000021, 100.00
+Fermat time and correctness for test number 5 : 0.000036, 100.00
+Fermat time and correctness for test number 6 : 0.000018, 100.00
+Fermat time and correctness for test number 7 : 0.000024, 100.00
+Fermat time and correctness for test number 8 : 0.000007, 100.00
+Fermat time and correctness for test number 9 : 0.000031, 100.00
+Fermat time and correctness for test number 10 : 0.000036, 100.00
+Fermat time and correctness for test number 11 : 0.000160, 100.00
+Fermat time and correctness for test number 12 : 0.000069, 100.00
+Fermat time and correctness for test number 13 : 0.000048, 100.00
+Fermat time and correctness for test number 14 : 0.000225, 100.00
+Fermat time and correctness for test number 15 : 0.000313, 100.00
+Fermat time and correctness for test number 16 : 0.000331, 100.00
+Fermat time and correctness for test number 17 : 0.003830, 100.00
+Fermat time and correctness for test number 18 : 0.004859, 100.00
+Timpul mediu al algoritmului Fermat pentru un numar de 50 iteratii este: 0.000568
+Probabilitatea ca algoritmul Fermat sa ne dea un rezultat corect pentru 50 iteratii este de: 100.00

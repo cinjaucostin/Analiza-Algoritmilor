@@ -1,0 +1,21 @@
+Numarul de iteratii: 50
+Miller-Rabin time and correctness for test number 1 : 0.000020, 100.00
+Miller-Rabin time and correctness for test number 2 : 0.000061, 100.00
+Miller-Rabin time and correctness for test number 3 : 0.000055, 100.00
+Miller-Rabin time and correctness for test number 4 : 0.000014, 100.00
+Miller-Rabin time and correctness for test number 5 : 0.000022, 100.00
+Miller-Rabin time and correctness for test number 6 : 0.000012, 100.00
+Miller-Rabin time and correctness for test number 7 : 0.000014, 100.00
+Miller-Rabin time and correctness for test number 8 : 0.000002, 100.00
+Miller-Rabin time and correctness for test number 9 : 0.000005, 100.00
+Miller-Rabin time and correctness for test number 10 : 0.000004, 100.00
+Miller-Rabin time and correctness for test number 11 : 0.000108, 100.00
+Miller-Rabin time and correctness for test number 12 : 0.000047, 100.00
+Miller-Rabin time and correctness for test number 13 : 0.000032, 100.00
+Miller-Rabin time and correctness for test number 14 : 0.000150, 100.00
+Miller-Rabin time and correctness for test number 15 : 0.000205, 100.00
+Miller-Rabin time and correctness for test number 16 : 0.000218, 100.00
+Miller-Rabin time and correctness for test number 17 : 0.002485, 100.00
+Miller-Rabin time and correctness for test number 18 : 0.003029, 100.00
+Timpul mediu al algoritmului Miller-Rabin pentru un numar de 50 iteratii este: 0.000360
+Probabilitatea ca algoritmul Miller-Rabin sa ne dea un rezultat corect pentru 50 iteratii este de: 100.00

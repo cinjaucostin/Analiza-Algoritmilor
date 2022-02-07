@@ -1,0 +1,61 @@
+-NUMELE SI GRUPA: Cinjau Gh. Constantin Iulian, grupa 323CD
+
+-DESCRIEREA ARHIVEI:
+    ->Directorul "in" contine toate testele compuse pentru a evalua algoritmii.
+        ->Descrierea testelor realizate:
+            *testele 1, 2 si 3 reprezinta niste teste simple, cu numere mici, cat mai variate(atat numere prime cat si compuse).
+            *testele 4, 5, 6, 7 si 8 reprezinta teste de dimensiuni mici dar care contin cazuri particulare pentru algoritmul lui Fermat,
+            si anume: numere Carmichael(numere care sunt de fapt compuse, dar pentru care algoritmul ne poate intoarce ca sunt prime) cu 
+            valori mici, amestecate cu alte numere compuse sau prime.
+            *testele 9 si 10 sunt teste mai complexe, contin cate 8 numere cu valori de peste 10^5 care reprezinta de asemenea doar numere
+            de tip Carmichael.
+            *testele 11, 12 si 13 sunt niste teste care contin cate 10 valori mari(intre 10^6 si 10^7) printre are se afla atat numere prime
+            cat si numere compuse.
+            *testul 14 este un test care contine 20 de numere cu valori cuprinse intre 10^7 si 10^8 printre care se afla atat numere
+            prime cat si numere de tip Carmichael.
+            *de asemenea, testul 15 contine 20 de numere cu valori de peste 10^8 de aceasta data, combinate cu numere de tip Carmichael;
+            *testul 16 contine 10 valori prime foarte mari (de peste 10^9), l-am compus tocmai pentru a vedea cum se comporta algoritmii pe 
+            numere foarte mari(aproape de valoarea maxima cu semn reprezentabila pe 32 de biti).
+            *testele 17 si 18 sunt niste teste generate cu ajutorul algoritmului lui Eratostene, pentru a vedea cum se comporta algoritmii
+            cand primesc ca input un numar mare de valori prime si daca intorc rezultatele dorite.
+            *in realizarea testelor am incercat sa acopar cat mai multe situatii pentru a putea compara corect cei doi algoritmi in etapa urmatoare,
+            pentru a putea vedea care dintre ei este mai bun pentru numere mici, numere mari, aflate in diferite intervale, daca unul dintre ei acopera
+            cazurile particulare ale celuilalt sau daca sunt exemple in care ambele esueaza.
+            *site-uri cu ajutorul carora am compus testele(site-uri pe care am gasit numere Carmichael sau numere prime foarte mari):
+                -https://oeis.org/A002997
+                -http://oeis.org/wiki/Carmichael_numbers
+                -http://compoasso.free.fr/primelistweb/page/prime/liste_online_en.php
+                -https://www.math.okayama-u.ac.jp/mjou/mjou1-46/mjou_pdf/mjou_22/mjou_22_033.pdf
+    
+    ->Directorul "out" contine fisierele cu rezultatele testelor.
+    
+    ->Directorul "ref" este un director in care am pus toate fisierele de referinta(rezultatele corecte dupa care sa ne ghidam la fiecare test).
+    
+    ->Fisierul miller_rabin.c contine implementarea algoritmului Miller-Rabin.
+    
+    ->Fisierul fermat.c contine implementarea propriu zisa a algoritmului lui Fermat.
+    
+    ->Fisierul generate_tests.c este un program care contine alogritmul lui Eratostene, de care m-am folosit sa generez testele 17 si 18.
+    
+    ->Fisierul test1.c reprezinta programul prin intermediul caruia putem rula primul algoritm(Miller-Rabin) asupra tuturor testelor.
+    
+    ->Fisierul test2.c reprezinta programul cu ajutorul caruia putem rula cel de-al doilea algoritm(Fermat) pe fiecare dintre testele compuse.
+    
+    ->Fisierul utils.c contine mai multe functii auxiliare(atat functii de care m-am folosit in implementarea algoritmilor, cat si functii
+    cu ajutorul carora am generat numele fisierelor de intrare/iesire dupa formatul cerut si am citit sau scris din/in acestea).
+    
+    ->Fisierul utils.h este un fisier header care face legatura intre fisierul utils.c si celelalte in care am folosit implementari din acesta(
+    miller_rabin.c, fermat.c, test1.c, test2.c si generate_tests.c).
+    
+    ->Implementarile algoritmilor sunt inspirate din mai multe articole specifice de pe GeekForGeeks care m-au ajutat sa inteleg mai bine 
+    algoritmii.
+        -Link-uri pentru articole:
+            *https://www.geeksforgeeks.org/primality-test-set-3-miller-rabin/
+            *https://www.geeksforgeeks.org/primality-test-set-2-fermet-method/
+            *https://www.geeksforgeeks.org/modular-exponentiation-power-in-modular-arithmetic/?ref=lbp
+            *https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+    
+    ->In fisierul Makefile am introdus toate regulile din cerinta, mentionez ca pentru regula make run-best am rulat executabilul specific 
+    algoritmului lui Miller-Rabin, acesta fiind mai rapid decat Fermat in fiecare situatie.
+
+
